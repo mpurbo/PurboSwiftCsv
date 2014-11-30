@@ -68,7 +68,7 @@ public class Parser {
         
         stream.open()
         
-        if stream.hasBytesAvailable {
+        while stream.hasBytesAvailable {
             let bytesRead = stream.read(&buffer, maxLength: bufferSize)
             if bytesRead >= 0 {
                 var output = NSString(bytes: &buffer, length: bytesRead, encoding: NSUTF8StringEncoding)
