@@ -40,6 +40,7 @@
 		A92E98C51A2B447F00FB0B2A /* PurboSwiftCsvExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurboSwiftCsvExampleTests.swift; sourceTree = "<group>"; };
 		A92E98D81A2B450900FB0B2A /* PurboSwiftCsv.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PurboSwiftCsv.framework; path = "../../build/Debug-iphoneos/PurboSwiftCsv.framework"; sourceTree = "<group>"; };
 		A92E98DA1A2B45B300FB0B2A /* test1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test1.csv; sourceTree = "<group>"; };
+		A9AF4B9E1A3456F600AD34C9 /* PurboSwiftCsvPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PurboSwiftCsvPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +91,7 @@
 				A92E98B61A2B447F00FB0B2A /* Images.xcassets */,
 				A92E98B81A2B447F00FB0B2A /* LaunchScreen.xib */,
 				A92E98AD1A2B447F00FB0B2A /* Supporting Files */,
+				A9AF4B9E1A3456F600AD34C9 /* PurboSwiftCsvPlayground.playground */,
 			);
 			path = PurboSwiftCsvExample;
 			sourceTree = "<group>";
@@ -423,6 +425,7 @@
 				A92E98CB1A2B447F00FB0B2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A92E98CC1A2B447F00FB0B2A /* Build configuration list for PBXNativeTarget "PurboSwiftCsvExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +434,7 @@
 				A92E98CE1A2B447F00FB0B2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

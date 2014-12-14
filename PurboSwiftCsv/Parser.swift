@@ -8,18 +8,6 @@
 
 import Foundation
 
-public class Format {
-    
-    class func defaultFormat() -> Format {
-        return Format()
-    }
-    
-    public init() {
-        
-    }
-    
-}
-
 extension NSInputStream
 {
     public func readString(length:Int) -> String {

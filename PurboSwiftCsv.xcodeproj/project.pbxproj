@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9AF4B991A330DD800AD34C9 /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AF4B981A330DD800AD34C9 /* Format.swift */; };
+		A9AF4B9D1A33DB0B00AD34C9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AF4B9C1A33DB0B00AD34C9 /* Constants.swift */; };
 		A9D7A1991A29C37D007F3CC4 /* PurboSwiftCsv.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D7A1981A29C37D007F3CC4 /* PurboSwiftCsv.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9D7A19F1A29C37E007F3CC4 /* PurboSwiftCsv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D7A1931A29C37D007F3CC4 /* PurboSwiftCsv.framework */; };
 		A9D7A1A61A29C37E007F3CC4 /* PurboSwiftCsvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D7A1A51A29C37E007F3CC4 /* PurboSwiftCsvTests.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A9AF4B981A330DD800AD34C9 /* Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Format.swift; sourceTree = "<group>"; };
+		A9AF4B9C1A33DB0B00AD34C9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A9D7A1931A29C37D007F3CC4 /* PurboSwiftCsv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PurboSwiftCsv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D7A1971A29C37D007F3CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9D7A1981A29C37D007F3CC4 /* PurboSwiftCsv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PurboSwiftCsv.h; sourceTree = "<group>"; };
@@ -74,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				A9D7A1981A29C37D007F3CC4 /* PurboSwiftCsv.h */,
+				A9AF4B9C1A33DB0B00AD34C9 /* Constants.swift */,
+				A9AF4B981A330DD800AD34C9 /* Format.swift */,
 				A9D7A1AF1A29C9CF007F3CC4 /* Parser.swift */,
 				A9D7A1961A29C37D007F3CC4 /* Supporting Files */,
 			);
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9AF4B991A330DD800AD34C9 /* Format.swift in Sources */,
 				A9D7A1B01A29C9CF007F3CC4 /* Parser.swift in Sources */,
+				A9AF4B9D1A33DB0B00AD34C9 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +410,7 @@
 				A9D7A1AB1A29C37E007F3CC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9D7A1AC1A29C37E007F3CC4 /* Build configuration list for PBXNativeTarget "PurboSwiftCsvTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +419,7 @@
 				A9D7A1AE1A29C37E007F3CC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
