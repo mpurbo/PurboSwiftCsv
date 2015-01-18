@@ -14,8 +14,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        /*
         let parser = Parser(fromUrl: NSBundle.mainBundle().URLForResource("test1", withExtension: "csv")!)
         parser!.parse()
+        */
     }
 
     override func didReceiveMemoryWarning() {

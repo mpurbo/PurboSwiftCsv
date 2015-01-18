@@ -45,8 +45,8 @@ public class Parser {
     }
     
     public init(fromStream stream: NSInputStream) {
-        self.stream = stream
-        self.format = Format.defaultFormat()
+        self.stream = stream        
+        self.format = Format.Default
     }
     
     public func parse() {

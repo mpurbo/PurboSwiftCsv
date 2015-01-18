@@ -8,12 +8,23 @@ testArray = [1, "Baba", nil]
 testArray?.map({ $0?.description })
 */
 
-var str1 = "AA"
-var strArray = [str1, "BB", "CC"]
-var strArrayCopy = strArray
+func newFormat(
+    delimiter: Character,
+    quoteChar: Character?,
+    commentStart: Character?,
+    escape: Character?,
+    ignoreSurroundingSpaces : Bool,
+    ignoreEmptyLines: Bool,
+    recordSeparator: String,
+    nullString: String,
+    headerComments: [AnyObject?]?,
+    header: [String?]?,
+    skipHeaderRecord: Bool,
+    allowMissingColumnNames: Bool) -> Void {
+        
+        
+}
 
-str1 = "DD"
-strArrayCopy[0] = "XX"
+//Constants.COMMA, Constants.DOUBLE_QUOTE_CHAR, nil, nil, nil, false, true, Constants.CRLF, nil, nil, nil, false, false
 
-print(strArray)
-print(strArrayCopy)
+newFormat(",", ",", nil, nil, false, true, ",", nil, nil, nil, false, false)
